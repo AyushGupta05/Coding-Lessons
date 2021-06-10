@@ -14,5 +14,5 @@ Before coing to session Read this and note down the date
  ### Tracklist
 
  - [x] 8-june-2021
- - [ ] 10-june-2021
+ - [x] 10-june-2021
  - [ ] 14-june-2021
