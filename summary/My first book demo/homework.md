@@ -26,4 +26,4 @@
 
 
 # shell scripting brief overview
-- it helps pwrite a script to execute a set of instructions
+- it helps write a script to execute a set of instructions
