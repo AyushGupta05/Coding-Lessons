@@ -2,9 +2,9 @@
 
 echo "Hello Ayush"
 
-#read -p "Enter the Color name" picked_color
+read -p "Enter the Color name" picked_color
 
-#echo "You entered Color : $picked_color " 
+echo "You entered Color : $picked_color " 
 
 #[1,2,3,4]
 
