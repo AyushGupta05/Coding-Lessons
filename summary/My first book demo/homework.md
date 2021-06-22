@@ -10,3 +10,20 @@
 
 # How to use forloop
 - coudnt find
+
+
+
+# how to use while
+- while [ condition ] do command1 command2 commandN done.
+
+# how to use for
+
+- for variable 1234(list of values)
+
+# how to use function
+
+- use the name of the function
+
+
+# shell scripting brief overview
+- it helps pwrite a script to execute a set of instructions
