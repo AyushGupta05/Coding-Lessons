@@ -41,13 +41,31 @@ echo $vegetable_id
 #using if condition
 if [ $vegetable_id -eq 1 ]; then 
 echo "You have selected potato"
-read -p "how much Quantity do you want" veg1_quantity
-echo "the total amount is : " $(( $veg1_quantity * $vegetable_1_price )) rs
+
+
+read -p "how much Quantity do you want"   veg1_quantity
+while [ $veg1_quantity -ge 10 ]
+do 
+read -p "Please enter a lower quantity" veg1_quantity
+done
+
+echo "the total amount is :   " $(( $veg1_quantity * $vegetable_1_price )) rs
 # if is a condidition. line number 45 ends if (fi)
 fi
 if [ $vegetable_id -eq 2 ]; then 
 echo "You have selected carrot"
+
+read -p "how much Quantity do you want"   veg2_quantity
+echo "the total amount is :   " $(( $veg2_quantity * $vegetable_2_price )) rs
+
 fi
 if [ $vegetable_id -eq 3 ]; then 
 echo "You have selected apple"
+read -p "how much Quantity do you want"   veg3_quantity
+echo "the total amount is :   " $(( $veg3quantity * $vegetable_3_price )) rs
+fi
+if [ $vegetable_id -eq 4 ]; then 
+echo "You have selected apple"
+read -p "how much Quantity do you want"   veg4_quantity
+echo "the total amount is :   " $(( $veg4quantity * $vegetable_4_price )) rs
 fi
