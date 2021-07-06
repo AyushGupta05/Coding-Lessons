@@ -6,7 +6,7 @@ echo "In this game you must choose a number between 1-15 until you choose the co
 echo $line
 read -p "Choose a number between 1-15   :" number_input
 
-while [ $number_input -ge 16 ];
+while [ $number_input -ge 16 ];x`
 do 
 read -p "Please enter a lower number" number_input
 done
