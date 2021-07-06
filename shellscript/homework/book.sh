@@ -1,6 +1,8 @@
 Genres=(Action Adventure Mystery Horror Fantasy )
 book_prices=(10 20 30 40 50)
-discount_percentage=10
+flat_discount=10
+
+# Lesson : Bash Scripting doesn;t supports decimal points
 
 line="=========================================================="
 
@@ -48,11 +50,9 @@ done
 
 echo "As you have come during christmas, we have a 10% discount"
 
-discounted_amount=$(($discount_percentage/100 * $total))
-echo $(($discounted_percentage / 100))
-final=$(($total - $discounted_amount))
+final=$(($total - $flat_discount))
 echo "The bill amount is $total"
-echo "The discounted amount is $discounted_amount"
+echo "The discounted amount is $flat_discount"
 echo "Amount to be paid is $final"
 
 echo $line
