@@ -3,6 +3,7 @@ vegetable_prices=(15 5 20 15 30)
 # position=$((4-1))
 # echo "${vegetable_prices[${position}]}"
 # exit
+#computers start from 0
 
 
 
@@ -37,8 +38,8 @@ do
     read -p "how much Quantity do you want" veg_quantity
     position=$(($vegetable_id - 1))
 
-    cost=$(( $veg_quantity * ${vegetable_prices[${position}]} ))
-    total=$((total + cost))
+    cost=$(( $veg_quantity * ${vegetable_prices[${position}]} )) 
+    total=$((total + cost))rs
     echo "So far the total price is $total"
     read -p "Do you want to continue shopping yes/no ?" user_continue
     
@@ -50,3 +51,4 @@ echo " To the total bill amount is $total"
 echo $line
 
 echo "Please consider shopping with us again"
+

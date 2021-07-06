@@ -62,10 +62,10 @@ fi
 if [ $vegetable_id -eq 3 ]; then 
 echo "You have selected apple"
 read -p "how much Quantity do you want"   veg3_quantity
-echo "the total amount is :   " $(( $veg3quantity * $vegetable_3_price )) rs
+echo "the total amount is :   " $(( $veg3_quantity * $vegetable_3_price )) rs
 fi
 if [ $vegetable_id -eq 4 ]; then 
 echo "You have selected apple"
 read -p "how much Quantity do you want"   veg4_quantity
-echo "the total amount is :   " $(( $veg4quantity * $vegetable_4_price )) rs
+echo "the total amount is :   " $(( $veg4_quantity * $vegetable_4_price )) rs
 fi
