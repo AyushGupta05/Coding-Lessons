@@ -17,3 +17,4 @@ Before coing to session Read this and note down the date
  - [x] 10-june-2021
  - [x] 16-june-2021
  - [x] 22-june-2021
+ - [x] 10-july-2021
